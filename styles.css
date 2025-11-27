@@ -1,0 +1,47 @@
+
+/* JShine Gradient (Sidebar & Header) */
+.bg-gradient-jshine {
+  background: #12c2e9; 
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+  background: linear-gradient(to bottom right, #12c2e9, #c471ed, #f64f59); 
+}
+
+/* Cool Blues Gradient (Main Background) */
+.bg-gradient-cool-blues {
+  background: #2193b0; 
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0); 
+  background: linear-gradient(to right, #6dd5ed, #2193b0); 
+  min-height: 100vh;
+}
+
+/* 3D Card Effect */
+.card-3d {
+  transition: all 0.3s ease;
+  transform: perspective(1000px);
+  transform-style: preserve-3d;
+  border-radius: 16px;
+}
+
+.card-3d:hover {
+  transform: perspective(1000px) scale(1.02) translateZ(10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+/* Glassmorphism Panel */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Button Gradient Hover Animation */
+.btn-gradient-hover {
+  background-size: 200% auto;
+  transition: 0.5s;
+}
+.btn-gradient-hover:hover {
+  background-position: right center;
+}
